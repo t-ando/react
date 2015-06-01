@@ -65,4 +65,4 @@ var Component1 = React.createClass(
   }
 });
 
-React.render(<Component1/>, document.body);
+React.render(<Component1/>, document.getElementById('component'));
