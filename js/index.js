@@ -81,7 +81,6 @@ var Component1 = React.createClass(
       return (<div><svg height = "100%"  width = "100%" >
       {this.state.items.map(createItem)}
       {createItem(this.state)}
-      // <line x1 = {this.state.kiten.x} y1 = {this.state.kiten.y} x2 = {this.state.cursor.x} y2 = {this.state.cursor.y} stroke="red" strokeWidth="5" />
       </svg></div>);
   }
 });
